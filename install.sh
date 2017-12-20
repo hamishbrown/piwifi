@@ -59,7 +59,7 @@ fi
 
 welcomeDialogs() {
     # Display the welcome dialog
-    whiptail --msgbox --backtitle "Welcome" --title "${PIWIFI_NAME} Automated Installer" "This installer will transform your Raspberry Pi 5 into a WiFi Access Point!" ${r} ${c}
+    whiptail --msgbox --backtitle "Welcome" --title "${PIWIFI_NAME} Automated Installer" "This installer will transform your Raspberry Pi 3 into a WiFi Access Point!" ${r} ${c}
 }
 
 endDialog() {
